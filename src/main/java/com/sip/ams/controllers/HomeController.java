@@ -9,6 +9,7 @@ public class HomeController {
 	@RequestMapping("/info")
 	public String info()
 	{
+		System.out.println("méthode affichage");
 		return "home/info";
 	}
 	
